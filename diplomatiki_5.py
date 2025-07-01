@@ -2,7 +2,7 @@ from SALib.sample import morris as morris_sample
 from SALib.analyze import morris as morris_analyze
 import matplotlib.pyplot as plt
 import numpy as np
-No=2e-11
+No=1e-11
 def dbm_to_mw(dbm):
     y=10**(dbm/10)
     return y
